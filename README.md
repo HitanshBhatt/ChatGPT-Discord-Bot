@@ -18,3 +18,7 @@ Make sure there is a `.env` file present in the root directory with a valid `coh
 Under the root directory, run `python nlp.py -embed` to convert all the description into embedings. This will modify the files in the `data` folder.
 
 ### Running the code
+
+## Examples
+![image](https://user-images.githubusercontent.com/74229658/222205182-306372f1-25ae-4b0c-8b1a-03ae1ceba2bc.png)
+
