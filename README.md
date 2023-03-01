@@ -9,7 +9,11 @@ The discord bot is powered by the openAI API. It queries user input as ChatGPT w
 Contains all the libraries needed to build the bot. To install all the libraries in the file, run `pip install -r requirements.txt`. If not already insalled, you will also have to include `requests = version` or alternatively, you need to run the command `pip install requests`
 
 ### .env file
-Make sure there is a `.env` file present in the root directory with a valid `cohere-token` so the API calls will work.
+Make sure there is a `.env` file present in the root directory. The file should cointain the Discord bot token and the OpenAI API token. The file should simply contain:
+```
+DISCORD_BOT_TOKEN = *discord bot token*
+API_KEY = *OpenAI API key*
+```
 
 ### Using the openAI API
 Under the root directory, run `python nlp.py -embed` to convert all the description into embedings. This will modify the files in the `data` folder.
