@@ -1,15 +1,12 @@
 # ChatGPT-Discord-Bot
 
 ## Functionality
-The discord bot is powered by the openAI API. It queries user input a
-
-## How I Built It
-The major component to getting information about existing mental health resources was to scrape websites (Beautiful Soup) that provided such information. We used Python to construct an algorithm to scrape data from websites and store it in our database. The data is fed into our NLP (Natural Language Processing) algorithm to train the chatbot AI to generate responses to specific queries. The AI involves sophisticated NLP techniques to parse through an user input query and take note of keywords for semantic similarity analysis. After training and empirically tuning the AI, we linked the frontend (our website) to the backend (Python scripts) using a server hosted on Flask.
+The discord bot is powered by the openAI API. It queries user input as ChatGPT would and produces an output
 
 ## Running the Code
 
 ### requirements.txt file
-We currently only pull data from 3 university websites, UofT, Ontario Tech and McMaster. To scrape each site, run each of their respective scrapers under the `scraper` folder. They should then spit the contents of each site into a file under `data`.
+Contains all the libraries needed to build the bot. To install all the libraries in the file, run `pip install -r requirements.txt`. If not already insalled, you will also have to include `requests = version` or alternatively, you need to run the command `pip install requests`
 
 ### .env file
 Make sure there is a `.env` file present in the root directory with a valid `cohere-token` so the API calls will work.
