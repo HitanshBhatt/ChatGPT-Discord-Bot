@@ -1,7 +1,7 @@
 # ChatGPT-Discord-Bot
 
 ## Functionality
-The discord bot is powered by the openAI API. It queries user input as ChatGPT would and produces an output
+The discord bot is powered by the openAI API. It queries user input as ChatGPT would and produces an output. The purpose is to essentially add a feature like ChatGPT in mass Discord servers given the rising popularity of the platform.
 
 ## Running the Code
 
