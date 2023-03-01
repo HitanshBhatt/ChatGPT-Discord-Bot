@@ -15,6 +15,8 @@ DISCORD_BOT_TOKEN = *discord bot token*
 API_KEY = *OpenAI API key*
 ```
 
+Note: This file is not included in the repository
+
 ### Using the OpenAI API
 The documentation provided by OpenAI is very useful and straightforward to follow. Find the documentation [here](https://platform.openai.com/docs/api-reference?lang=python)
 
