@@ -19,6 +19,7 @@ API_KEY = *OpenAI API key*
 The documentation provided by OpenAI is very useful and straightforward to follow. Find the documentation [here](https://platform.openai.com/docs/api-reference?lang=python)
 
 ### Running the code
+Execute and run `run.py` and the bot will show an online status on Discord.
 
 ## Examples
 ![image](https://user-images.githubusercontent.com/74229658/222205182-306372f1-25ae-4b0c-8b1a-03ae1ceba2bc.png)
